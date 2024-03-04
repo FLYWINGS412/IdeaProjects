@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97e89c7d-8e51-4a2f-a85a-2a7dc5b01d36" name="更改" comment="配置Github">
-      <change beforePath="$PROJECT_DIR$/basic-code/day02-code/day02-code.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-code/day02-code/src/com/jidi/demo/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-code/day02-code/src/com/jidi/demo/ScannerDemo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-code/day02-code/src/com/jidi/demo/VariableDemo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-code/day02-code/src/com/jidi/demo/VariableDemo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-code/day02-code/src/com/jidi/demo/VariableDemo3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-code/day02-code/src/com/jidi/test/ScannerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-code/day02-code/src/com/jidi/test/VariableTest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-code/day02-code/src/com/jidi/test/VariableTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-code/day02-code/src/com/jidi/test/VariableTest3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-code/day02-code/src/com/jidi/test/VariableTest4.java" beforeDir="false" />
+    <list default="true" id="97e89c7d-8e51-4a2f-a85a-2a7dc5b01d36" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +14,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "FLYWINGS412"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9a86bf0d-543e-454b-b6cf-f5f086ec1322" />
+        <option name="url" value="https://github.com/FLYWINGS412/IdeaProjects.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -34,25 +38,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Develop/IdeaProjects/basic-code&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.capture&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Develop/IdeaProjects/basic-code",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -65,6 +69,7 @@
       <workItem from="1709545762148" duration="587000" />
       <workItem from="1709546361443" duration="19000" />
       <workItem from="1709546391368" duration="42000" />
+      <workItem from="1709546470309" duration="1394000" />
     </task>
     <task id="LOCAL-00001" summary="配置Github">
       <option name="closed" value="true" />
@@ -74,7 +79,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709545914415</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新day02-code">
+      <option name="closed" value="true" />
+      <created>1709546605698</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709546605698</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新day02-code">
+      <option name="closed" value="true" />
+      <created>1709546680487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709546680487</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="配置Github" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置Github" />
+    <MESSAGE value="更新day02-code" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新day02-code" />
   </component>
 </project>
