@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="97e89c7d-8e51-4a2f-a85a-2a7dc5b01d36" name="更改" comment="删除test.java文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-code/New" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,9 @@
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\63061\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="97e89c7d-8e51-4a2f-a85a-2a7dc5b01d36" name="更改" comment="" />
@@ -71,7 +73,7 @@
       <workItem from="1709546361443" duration="19000" />
       <workItem from="1709546391368" duration="42000" />
       <workItem from="1709546470309" duration="2680000" />
-      <workItem from="1709550577568" duration="1620000" />
+      <workItem from="1709550577568" duration="3082000" />
     </task>
     <task id="LOCAL-00001" summary="配置Github">
       <option name="closed" value="true" />
@@ -105,15 +107,53 @@
       <option name="project" value="LOCAL" />
       <updated>1709548547480</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="删除test.java文件">
+      <option name="closed" value="true" />
+      <created>1709552385381</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709552385381</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="99c6c85c-8402-42f4-9558-e77176e27750" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="99c6c85c-8402-42f4-9558-e77176e27750">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/Develop/IdeaProjects/basic-code/day01-code" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
