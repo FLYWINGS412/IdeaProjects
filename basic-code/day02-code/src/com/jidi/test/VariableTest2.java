@@ -1,3 +1,5 @@
+package com.jidi.test;
+
 public class VariableTest2{
     //主入口
     public static void main(String[] args){

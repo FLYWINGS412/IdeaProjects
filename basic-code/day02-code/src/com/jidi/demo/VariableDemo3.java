@@ -1,3 +1,5 @@
+package com.jidi.demo;
+
 public class VariableDemo3 {
     //主入口
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-//1.导包
+package com.jidi.test;//1.导包
 import java.util.Scanner;
 
 public class ScannerTest{

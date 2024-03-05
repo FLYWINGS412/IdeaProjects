@@ -1,4 +1,4 @@
-//1.导包，找到Scanner这个类在哪
+package com.jidi.demo;//1.导包，找到Scanner这个类在哪
 //书写要注意：要写在类定义的上面
 import java.util.Scanner;
 
