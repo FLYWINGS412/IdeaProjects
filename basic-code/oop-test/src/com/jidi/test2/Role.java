@@ -99,19 +99,20 @@ public class Role {
 
     public void attack(Role role) {
         Random r = new Random();
-        int index = r.nextInt(attacks_desc.length);
-        String Kufu = attacks_desc[index];
 
         // 攻击的描述
+        int index = r.nextInt(attacks_desc.length);
+        String Kufu = attacks_desc[index];
         System.out.printf(Kufu,this.getName(),role.getName());
-        System.out.println();
 
         // 计算造成的伤害，每次伤害造成1 ~ 20点血
         int hurt = r.nextInt(20) + 1;
+        System.out.println("这次攻击对" + role.getName() + "造成了"
+                + hurt + "点伤害。" );
 
         // 修改一下挨揍的人的血量
         // 剩余血量
-        int remainBlood = getBlood() - hurt;
+        int remainBlood = role.getBlood() - hurt;       // 使用role.getBlood()获取被攻击者的血量
         // 对剩余血量做一个验证，如果remainBlood的值为负数就修改为0，否则保持remainBlood的值不变。
         remainBlood = remainBlood < 0 ? 0 : remainBlood;
         // 修改一下挨揍的人的血量
@@ -143,7 +144,7 @@ public class Role {
         }else {
             System.out.printf(injureds_desc[7], role.getName());
         }
-        System.out.println();
+        System.out.println(role.getName() + "还剩下了" + remainBlood + "点血。");
         System.out.println();
     }
 
