@@ -1,4 +1,6 @@
-package com.jidi.test;
+//练习题目：文字版格斗游戏
+
+package com.jidi.test1;
 
 public class GameTest {
     public static void main(String[] args) {

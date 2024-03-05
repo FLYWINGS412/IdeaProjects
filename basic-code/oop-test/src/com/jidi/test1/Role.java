@@ -1,4 +1,4 @@
-package com.jidi.test;
+package com.jidi.test1;
 
 import java.util.Random;
 
