@@ -1,6 +1,5 @@
 //练习题目：两个数组对象
 
-import com.jidi.test3.Goods;
 package com.jidi.test3;
 
 public class GoodsTest {
