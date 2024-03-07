@@ -1,22 +1,19 @@
 /* 定义一个长度为3的数组，数组存储1~3名学生对象作为初始数据，学生对象的学号，姓名各不相同。
 学生的属性：学号，姓名，年龄。
 要求1：再次添加一个学生对象，并在添加的时候进行学号的唯一性判断。
-要求2：添加完毕之后，遍历所有学生信息。
-要求3：通过id删除学生信息如果存在，则删除，如果不存在，则提示删除失败。
-要求4：删除完毕之后，遍历所有学生信息。
-要求5：查询数组id为“heima002”的学生，如果存在，则将他的年龄+1岁 */
+要求2：添加完毕之后，遍历所有学生信息。 */
 
 package com.jidi.test8;
 
-public class Test {
+public class Test1 {
     public static void main(String[] args) {
         // 1.创建一个数组用来存储学生对象
         Student[] arr = new Student[3];
 
         // 2.创建学生对象并添加到数组当中
-        Student stu1 = new Student(1, "zhangsan", 23);
-        Student stu2 = new Student(2, "lisi", 24);
-        Student stu3 = new Student(3, "wangwu", 25);
+        Student stu1 = new Student(1, "张三", 23);
+        Student stu2 = new Student(2, "李四", 24);
+        Student stu3 = new Student(3, "王五", 25);
 
         // 3.把学生对象添加到数组当中
         arr[0] = stu1;
@@ -24,7 +21,7 @@ public class Test {
         arr[2] = stu3;
 
         // 要求1：再次添加一个学生对象，并在添加的时候进行学号的唯一性判断。
-        Student stu4 = new Student(4, "zhaoliu", 26);
+        Student stu4 = new Student(4, "赵六", 26);
 
         // 唯一性判断
         // 已存在不用添加
@@ -65,6 +62,8 @@ public class Test {
             }
         }
     }
+
+    // 要求3：通过id删除学生信息，如果存在则删除，如果不存在，则提示删除失败。
 
     // 1.我要干嘛？      遍历数组
     // 2.我干这件事情，需要什么才能完成？       需要数组
@@ -121,11 +120,14 @@ public class Test {
         // 依次获取到数组里面的每一个学生对象
         for (int i = 0; i < arr.length; i++) {
             Student stu = arr[i];
-            // 获取数组中学生对象的id
-            int sid = stu.getId();
-            // 比较id
-            if (sid == id) {
-                return true;
+            // 判断stu是否为null
+            if (stu != null) {
+                // 获取数组中学生对象的id
+                int sid = stu.getId();
+                // 比较id
+                if (sid == id) {
+                    return true;
+                }
             }
         }
 
