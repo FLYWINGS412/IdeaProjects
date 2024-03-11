@@ -59,7 +59,7 @@ public class StringDemo9 {
             // 把大写数字和单位拼接到result当中
             result = result + c + arr[i];
         }
-        System.out.println(result);
+        System.out.println("金额大写为：" + result);
     }
 
 
