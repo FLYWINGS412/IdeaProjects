@@ -10,9 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/basic-code/day05-code/day05-code.iml" filepath="$PROJECT_DIR$/basic-code/day05-code/day05-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-code/day06-code/day06-code.iml" filepath="$PROJECT_DIR$/basic-code/day06-code/day06-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-code/day07-code/day07-code.iml" filepath="$PROJECT_DIR$/basic-code/day07-code/day07-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/basic-code/mystring/mystring.iml" filepath="$PROJECT_DIR$/basic-code/mystring/mystring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/basic-code/oop-code/oop-code.iml" filepath="$PROJECT_DIR$/basic-code/oop-code/oop-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/basic-code/oop-test/oop-test.iml" filepath="$PROJECT_DIR$/basic-code/oop-test/oop-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-code/day08-code/day08-code.iml" filepath="$PROJECT_DIR$/basic-code/day08-code/day08-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-code/day09-code/day09-code.iml" filepath="$PROJECT_DIR$/basic-code/day09-code/day09-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-code/day10-code/day10-code.iml" filepath="$PROJECT_DIR$/basic-code/day10-code/day10-code.iml" />
     </modules>
   </component>
 </project>
