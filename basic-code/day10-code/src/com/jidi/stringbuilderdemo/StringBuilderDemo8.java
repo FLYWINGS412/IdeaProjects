@@ -1,8 +1,8 @@
 // 练习题目：StringBuilder源码分析
 
-package com.jidi.test;
+package com.jidi.stringbuilderdemo;
 
-public class Test4 {
+public class StringBuilderDemo8 {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder();
         // 容量：最多装多少
