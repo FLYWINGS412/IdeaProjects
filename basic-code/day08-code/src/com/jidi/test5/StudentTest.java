@@ -7,8 +7,8 @@ public class StudentTest {
         // 如果已写有参构造，就不能调用student的无参构造
         // Student s = new Student();
 
-        /* Student s = new Student("张三",25);
+        Student s = new Student("张三",25);
         System.out.println(s.getName());
-        System.out.println(s.getAge()); */
+        System.out.println(s.getAge());
     }
 }

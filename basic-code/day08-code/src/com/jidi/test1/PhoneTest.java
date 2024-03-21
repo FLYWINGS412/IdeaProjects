@@ -29,7 +29,7 @@ public class PhoneTest {
         System.out.println(p2.brand);
         System.out.println(p2.price);
 
-        p.call();
-        p.playGame();
+        p2.call();
+        p2.playGame();
     }
 }
