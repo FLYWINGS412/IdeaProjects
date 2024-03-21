@@ -13,8 +13,8 @@ public class ArrTest5 {
         int[] arr = new int[10];
 
         //2.把随机数存入到数组当中
+        Random r = new Random();
         for (int i = 0; i < 10; i++) {
-            Random r = new Random();
             //每循环一次，就会生成一个新的随机数
             //把生成的随机数添加的数组当中
             //数组名[索引]=数据；

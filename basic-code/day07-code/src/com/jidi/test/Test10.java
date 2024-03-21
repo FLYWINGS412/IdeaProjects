@@ -22,11 +22,11 @@ public class Test10 {
         Random r = new Random();
         for (int i = 0; i < arr.length; i++) {
             // 获取随机索引
-            int randowmIndex = r.nextInt(arr.length);
+            int randomIndex = r.nextInt(arr.length);
             // 拿着i跟随机索引randowmIndex上的值进行交换
             int temp = arr[i];
-            arr[i] = arr[randowmIndex];
-            arr[randowmIndex] = temp;
+            arr[i] = arr[randomIndex];
+            arr[randomIndex] = temp;
         }
 
         // 2.遍历奖池，从0索引开始获取每一个奖项

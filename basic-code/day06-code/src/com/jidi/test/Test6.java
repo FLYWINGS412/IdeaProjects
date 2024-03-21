@@ -2,7 +2,7 @@ package com.jidi.test;
 
 public class Test6 {
     public static void main(String[] args) {
-        //需求：设计一个方法求数组的最大值，并将最太值返回
+        //需求：设计一个方法求数组的最大值，并将最大值返回
 
         //1.定义一个数组
         int[] arr = {1, 5, 7, 3, 8, 10};

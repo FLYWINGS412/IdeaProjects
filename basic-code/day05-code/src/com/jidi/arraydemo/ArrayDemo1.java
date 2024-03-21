@@ -12,18 +12,18 @@ public class ArrayDemo1 {
         //数据类型 [] 数组名 = {元素1，元素2....}；
 
         //需求1：定义数组存储5个学生的年龄
-        int [] arr1 = new int [] {10,12,13,14,15};
-        int [] arr2 = {10,12,13,14,15};
+        int[] arr1 = new int[]{10, 12, 13, 14, 15};
+        int[] arr2 = {10, 12, 13, 14, 15};
         System.out.println(arr2); //[I@776ec8df 地址值
 
         //需求2：定义数组存储3个学生的姓名
-        String [] arr3 = new String [] {"张三","李四","王麻子"};
-        String [] arr4 = {"张三","李四","王麻子"};
+        String[] arr3 = new String[]{"张三", "李四", "王麻子"};
+        String[] arr4 = {"张三", "李四", "王麻子"};
         System.out.println(arr4); //[Ljava.lang.String;@4eec7777 地址值
 
         //需求3：定义数组存储4个学生的身高
-        double [] arr5 = new double [] {1.35,1.25,1.15,1.30};
-        double [] arr6 = {1.35,1.25,1.15,1.30};
+        double[] arr5 = new double[]{1.35, 1.25, 1.15, 1.30};
+        double[] arr6 = {1.35, 1.25, 1.15, 1.30};
         System.out.println(arr6); //[D@3b07d329  地址值
 
         //扩展：

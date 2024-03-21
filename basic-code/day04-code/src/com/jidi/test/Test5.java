@@ -19,9 +19,9 @@ public class Test5 {
         int ticket = sc.nextInt();
 
         //只有当ticket在01oo之间，才是真实有效的票
-        if (ticket >= 0 && ticket <= 100) {
+        if (ticket >= 1 && ticket <= 100) {
             //2.判断票号是奇数还是偶数。
-            if (ticket %2 == 1) {
+            if (ticket % 2 == 1) {
                 System.out.println("坐左边");
             } else {
                 System.out.println("坐右边");

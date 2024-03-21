@@ -14,6 +14,6 @@ public class Test5 {
         int temp = height1 > height2 ? height1 : height2;
         int max = temp > height3 ? temp : height3;
         //ctrl+alt+L自动的格式化代码
-        System.out.println(max);
+        System.out.println("最高身高为："+max);
     }
 }

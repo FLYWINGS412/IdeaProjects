@@ -10,12 +10,12 @@ package com.jidi.ifdemo;
 public class IfDemo2 {
     public static void main(String[] args) {
         /*
-        int number=20；
+        int number=20;
         if(number >= 10)
-        inta=100；
+        int a = 100;
         1.定义变量a
         2.给变量a赋值为100
-        System.out.println("number大于等于1o")
+        System.out.println("number大于等于10")
         */
 
         boolean flag = true;

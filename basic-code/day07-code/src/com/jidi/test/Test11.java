@@ -12,6 +12,7 @@ public class Test11 {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
+        System.out.println();
 
         // 2.用户输入彩票号码（红球+蓝球）
         int[] userInputArr = userInputNumber();

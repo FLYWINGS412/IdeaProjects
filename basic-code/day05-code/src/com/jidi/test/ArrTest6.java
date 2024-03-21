@@ -19,7 +19,5 @@ public class ArrTest6 {
 
         System.out.println("a的值为：" + a);
         System.out.println("b的值为：" + b);
-
-
     }
 }

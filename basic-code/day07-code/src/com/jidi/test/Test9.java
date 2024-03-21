@@ -27,7 +27,7 @@ public class Test9 {
         // 3.抽奖
         Random r = new Random();
         // 因为有5个奖项，所以这里要循环5次
-        for (int i = 0; i < 5;) {
+        for (int i = 0; i < arr.length;) {
             // 获取随机索引
             int randomIdex = r.nextInt(arr.length);
             // 获取奖项
