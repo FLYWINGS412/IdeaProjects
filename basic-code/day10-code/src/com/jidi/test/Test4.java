@@ -23,15 +23,15 @@ public class Test4 {
 
         // 2.从数组中随机获取4次
         StringBuilder sb = new StringBuilder();
-        Random random = new Random();
+        Random r = new Random();
         for (int i = 0; i < 4; i++) {
-            int index = random.nextInt(arr.length);
+            int index = r.nextInt(arr.length);
             sb.append(arr[index]);
         }
 
         // 3.生成一个0~9之间的随机数拼接到最后
-        int number = random.nextInt(10);        // 生成一个0~9之间的随机
-        int index = random.nextInt(sb.length()+1);      // 生成交换元素索引
+        int number = r.nextInt(10);        // 生成一个0~9之间的随机
+        int index = r.nextInt(sb.length()+1);      // 生成交换元素索引
         sb.insert(index,number);        // 将随机数插入到StringBuilder中
 
         // 4.打印结果
