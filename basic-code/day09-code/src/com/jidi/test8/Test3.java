@@ -1,12 +1,13 @@
 /* 定义一个长度为3的数组，数组存储1~3名学生对象作为初始数据，学生对象的学号，姓名各不相同。
 学生的属性：学号，姓名，年龄。
-要求3：通过id删除学生信息，如果存在则删除，如果不存在，则提示删除失败。
-要求4：删除完毕之后，遍历所有学生信息。 */
+要求5：查询数组id为“2”的学生，如果存在，则将他的年龄+1岁 */
 
 package com.jidi.test8;
 
 public class Test3 {
     public static void main(String[] args) {
+        // 要求5：查询数组id为“2”的学生，如果存在，则将他的年龄+1岁
+
         // 1.创建一个数组用来存储学生对象
         Student[] arr = new Student[3];
 
@@ -20,22 +21,26 @@ public class Test3 {
         arr[1] = stu2;
         arr[2] = stu3;
 
-        // 要求3：通过id删除学生信息，如果存在则删除，如果不存在，则提示删除失败。
-        // 要找到id在数组中对应的索引
+        // 4.找到id为2的学生对于的索引
         int index = getIndex(arr, 2);
 
-        // 如果存在则删除
+        // 5.判断索引
         if (index >= 0) {
-            // 假如数组的情况是[stu1,stu2,stu3]
-            arr[index] = null;
-            System.out.println("ID：" + (index + 1) + " 已删除");
+            // 如果存在，则将他的年龄+1岁
+            Student stu = arr[index];
 
-            // 要求4：删除完毕之后，遍历所有学生信息。
+            // 把原来的年龄拿出来
+            int newAge = stu.getAge() + 1;
+
+            // 把+1之后的年龄传回去
+            stu.setAge(newAge);
+
+            // 遍历修改后的学生信息
             printArr(arr);
 
         } else {
             // 如果不存在，则提示删除失败
-            System.out.println("ID不存在，删除失败");
+            System.out.println("ID不存在，修改年龄失败");
         }
     }
 
@@ -59,9 +64,6 @@ public class Test3 {
         return -1;
     }
 
-    // 1.我要干嘛？      遍历所有学生信息
-    // 2.我干这件事情，需要什么才能完成？       需要数组
-    // 3.调用处是否需要继续使用方法的结果       不需要返回
     public static void printArr(Student[] arr) {
         for (int i = 0; i < arr.length; i++) {
             // 依次得到每一个学生对象
