@@ -37,30 +37,22 @@ public class StudentTest {
         }
     }
 
-    // 要做什么     添加学生
-    // 需要什么
-    // 是否返回
+    // 添加学生
     public static void addStudent() {
         System.out.println("添加学生");
     }
 
-    // 要做什么     删除学生
-    // 需要什么
-    // 是否返回
+    // 删除学生
     public static void deleteStudent() {
         System.out.println("删除学生");
     }
 
-    // 要做什么     修改学生
-    // 需要什么
-    // 是否返回
+    // 修改学生
     public static void updateStudent() {
         System.out.println("修改学生");
     }
 
-    // 要做什么     查询学生
-    // 需要什么
-    // 是否返回
+    // 查询学生
     public static void queryStudent() {
         System.out.println("查询学生");
     }
