@@ -5,13 +5,14 @@ package com.jidi.studentsystem;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class StudentTest {
+public class StudentSystem {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         ArrayList<Student> list = new ArrayList<>();
         loop:
         while (true) {     // 标识loop循环
             // 1.打印菜单
-            System.out.println("-----欢迎来到学生管理系统-----");
+            System.out.println("欢迎来到学生管理系统");
             System.out.println("1： 添加学生");
             System.out.println("2： 删除学生");
             System.out.println("3： 修改学生");
@@ -21,7 +22,6 @@ public class StudentTest {
             System.out.print("请输入你的选择：");
 
             // 2.键盘录入菜单选择
-            Scanner sc = new Scanner(System.in);
             String choose = sc.next();
 
             // 3.菜单选择
@@ -31,7 +31,7 @@ public class StudentTest {
                 case "3" -> updateStudent(list);
                 case "4" -> queryStudent(list);
                 case "5" -> {
-                    System.out.println("退出系统");
+                    System.out.println("谢谢使用，再见！");
                     // break loop;            // 方式一：退出loop循环
                     System.exit(0);     // 方式二：停止虚拟机运行
                 }
@@ -105,7 +105,7 @@ public class StudentTest {
 
         int index = getIndex(list, id);
         if (index == -1) {
-            System.out.println("id为"+id + "不存在，请重新输入");
+            System.out.println("id为" + id + "不存在，请重新输入");
             return;     // 如果id不存在，直接返回，不继续执行修改操作
         }
 
