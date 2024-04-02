@@ -79,11 +79,10 @@ public class App {
     //用户名唯一
     //用户名长度必须在3~15位之间
     //只能是字母加数字的组合，但是不能是纯数字
-    private static boolean checkUsername(ArrayList<User> list, String username) {
+    private static void checkUsername(ArrayList<User> list, String username) {
 
     }
 }
-        }
 
 
 //开发细节：先验证格式是否正确，再验证是否唯一
