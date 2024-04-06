@@ -238,7 +238,7 @@ public class App {
         System.out.println("用户名" + "\t\t\t" + "密码" + "\t\t\t\t" + "身份证" + "\t\t\t\t\t" + "手机号");
         for (int i = 0; i < list.size(); i++) {
             User user = list.get(i);
-            System.out.println(user.getName()
+            System.out.println(user.getUsername()
                     + "\t\t" + user.getPassword()
                     + "\t\t" + user.getPersonID()
                     + "\t\t" + user.getPhoneNumber());
@@ -277,7 +277,7 @@ public class App {
         // 拿着用户对象中的用户名进行比较
         for (int i = 0; i < list.size(); i++) {
             User user = list.get(i);
-            String rightUsername = user.getName();
+            String rightUsername = user.getUsername();
             if (username.equals(rightUsername)) {
                 return true;
             }
@@ -383,7 +383,7 @@ public class App {
         // 遍历集合，判断用户是否存在，如果存在登录成功，如果不存在登录失败
         for (int i = 0; i < list.size(); i++) {
             User user = list.get(i);
-            if (user.getName().equals(userInfo.getName()) && user.getPassword().equals(userInfo.getPassword())) {
+            if (user.getUsername().equals(userInfo.getUsername()) && user.getPassword().equals(userInfo.getPassword())) {
                 return true;
             }
         }
@@ -393,7 +393,7 @@ public class App {
     private static int findIndex(ArrayList<User> list, String username) {
         for (int i = 0; i < list.size(); i++) {
             User user = list.get(i);
-            if (user.getName().equals(username)) {
+            if (user.getUsername().equals(username)) {
                 return i;
             }
         }

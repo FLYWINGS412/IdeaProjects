@@ -1,7 +1,7 @@
 package com.jidi.studentsystem;
 
 public class User {
-    private String name;
+    private String username;
     private String password;
     private String personID;
     private String phoneNumber;
@@ -9,19 +9,19 @@ public class User {
     public User() {
     }
 
-    public User(String name, String password, String personID, String phoneNumber) {
-        this.name = name;
+    public User(String username, String password, String personID, String phoneNumber) {
+        this.username = username;
         this.password = password;
         this.personID = personID;
         this.phoneNumber = phoneNumber;
     }
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
