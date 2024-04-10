@@ -3,7 +3,7 @@ package com.jidi.a03staticdemo3;
 public class Student {
     private String name;
     private int age;
-    private String genger;
+    private String gender;
 
     public Student() {
     }
@@ -11,7 +11,7 @@ public class Student {
     public Student(String name, int age, String genger) {
         this.name = name;
         this.age = age;
-        this.genger = genger;
+        this.gender = genger;
     }
 
     public String getName() {
@@ -31,10 +31,10 @@ public class Student {
     }
 
     public String getGenger() {
-        return genger;
+        return gender;
     }
 
     public void setGenger(String genger) {
-        this.genger = genger;
+        this.gender = genger;
     }
 }
