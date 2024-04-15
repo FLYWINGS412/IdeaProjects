@@ -14,8 +14,20 @@ package com.jidi.oopextends.a11oopextendsdemo11;
 
 public class Test {
     public static void main(String[] args) {
-        //讲师
-        Teacher t=new Teacher();
+        // 讲师
+        Lecturer l = new Lecturer("001", "张三", "上课");
+        l.work();
 
+        // 助教
+        Tutor t = new Tutor("002", "李四", "辅导");
+        t.work();
+
+        // 维护专员
+        Maintainer m = new Maintainer("003", "王五", "维护");
+        m.work();
+
+        // 采购专员
+        Buyer b = new Buyer("004","赵六","采购");
+        b.work();
     }
 }
