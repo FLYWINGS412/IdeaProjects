@@ -24,12 +24,17 @@ public class Test {
         */
 
         // 第二种方法
-        // 创建对象调用方法
-        Person p = new Person("老王",30);
-        Dog d = new Dog(2,"黑");
-        Cat c = new Cat(3,"灰");
-        p.keepPet(d,"骨头");
+        // 创建饲养员对象
+        Person p1 = new Person("老王",30);
+        Person p2 = new Person("老李",25);
+
+        // 创建动物对象
+        Animal a1 = new Dog(2,"黑");
+        Animal a2 = new Cat(3,"灰");
+
+        // 调用方法
+        p1.keepPet(a1,"骨头");
         System.out.println("--------------------------------");
-        p.keepPet(c,"鱼");
+        p2.keepPet(a2,"鱼");
     }
 }

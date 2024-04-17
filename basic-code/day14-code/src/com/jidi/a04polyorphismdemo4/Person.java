@@ -55,11 +55,11 @@ public class Person {
     public void keepPet(Animal a, String something) {
         if(a instanceof Dog d){
             System.out.println("年龄为" + age + "的" + name + "养了一只" + d.getColor() + "颜色的" + d.getAge() + "岁的动物");
-            d.eat(something);
+            a.eat(something);
             d.lookHome();
         }else if (a instanceof Cat c){
             System.out.println("年龄为" + age + "的" + name + "养了一只" + c.getColor() + "颜色的" + c.getAge() + "岁的动物");
-            c.eat(something);
+            a.eat(something);
             c.catchMouse();
         }else {
             System.out.println("没有这种动物");
