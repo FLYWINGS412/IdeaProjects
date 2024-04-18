@@ -6,6 +6,12 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StudentSystem {
+    public static final String ADD_STUDENT = "1";
+    public static final String DELETE_STUDENT = "2";
+    public static final String UPDATE_STUDENT = "3";
+    public static final String QUERY_STUDENT = "4";
+    public static final String EXIT = "5";
+
     public static void startStudentSystem() {
         Scanner sc = new Scanner(System.in);
         ArrayList<Student> list = new ArrayList<>();
@@ -26,11 +32,11 @@ public class StudentSystem {
 
             // 3.菜单选择
             switch (choose) {
-                case "1" -> addStudent(list);
-                case "2" -> deleteStudent(list);
-                case "3" -> updateStudent(list);
-                case "4" -> queryStudent(list);
-                case "5" -> {
+                case ADD_STUDENT -> addStudent(list);
+                case DELETE_STUDENT -> deleteStudent(list);
+                case UPDATE_STUDENT -> updateStudent(list);
+                case QUERY_STUDENT -> queryStudent(list);
+                case EXIT -> {
                     System.out.println("谢谢使用，再见！");
                     // break loop;            // 方式一：退出loop循环
                     System.exit(0);     // 方式二：停止虚拟机运行
