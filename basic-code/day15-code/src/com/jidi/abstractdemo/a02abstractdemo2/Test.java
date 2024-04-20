@@ -1,4 +1,4 @@
-package com.jidi.a02abstractdemo2;
+package com.jidi.abstractdemo.a02abstractdemo2;
 
 public class Test {
     public static void main(String[] args) {

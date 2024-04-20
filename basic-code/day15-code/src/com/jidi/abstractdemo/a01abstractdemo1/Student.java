@@ -1,4 +1,4 @@
-package com.jidi.a01abstractdemo1;
+package com.jidi.abstractdemo.a01abstractdemo1;
 
 public class Student extends Person{
     public Student() {

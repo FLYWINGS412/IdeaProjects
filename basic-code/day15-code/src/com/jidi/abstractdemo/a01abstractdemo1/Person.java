@@ -1,4 +1,4 @@
-package com.jidi.a01abstractdemo1;
+package com.jidi.abstractdemo.a01abstractdemo1;
 
 public abstract class Person {
     private String name;

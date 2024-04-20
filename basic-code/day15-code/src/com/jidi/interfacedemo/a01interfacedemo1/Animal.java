@@ -1,4 +1,4 @@
-package com.jidi.a02abstractdemo2;
+package com.jidi.interfacedemo.a01interfacedemo1;
 
 public abstract class Animal {
     private String name;
@@ -30,7 +30,5 @@ public abstract class Animal {
 
     public abstract void eat();
 
-    public void drink(){
-        System.out.println("喝水");
-    }
+
 }

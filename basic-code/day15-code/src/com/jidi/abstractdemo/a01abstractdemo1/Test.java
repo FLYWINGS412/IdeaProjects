@@ -1,6 +1,6 @@
 // 练习题目：抽象类的定义格式和注意事项
 
-package com.jidi.a01abstractdemo1;
+package com.jidi.abstractdemo.a01abstractdemo1;
 
 public class Test {
     public static void main(String[] args) {
