@@ -2,7 +2,7 @@
 
 package com.jidi.innerclassdemo.a06innerclassdemo6;
 
-public class Test {
+public class Test1 {
     public static void main(String[] args) {
         //编写匿名内部类的代码
         new Swim(){
